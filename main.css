@@ -11,7 +11,8 @@ body.libdarkness {
     filter: invert(1);
     background-color: #000;
 }
-body.libdarkness .libdarkness-noinvert, body.libdarkness img:not(.libdarkness-yesinvert), body.libdarkness video:not(.libdarkness-yesinvert) {
+body.libdarkness image:not(.libdarkness),
+body.libdarkness video:not(.libdarkness) {
     filter: invert(1);
 }
 body.libdarkness a:not(:visited), body.libdarkness #libdarkness-control {
