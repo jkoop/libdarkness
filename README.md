@@ -35,4 +35,6 @@ For a demonstration, visit [my website](https://joekoop.com/).
 
 ```
 
-For the dark mode, libdarkness adds the libdarkness class to `<body>`. You are free to customise and add styling to fit your needs.
+To enable dark mode, libdarkness adds the `libdarkness` class to `<body>`.
+
+To invert an `<img/>` or `<video/>` in dark mode, give it the `libdarkness` class.

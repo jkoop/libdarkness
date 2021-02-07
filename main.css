@@ -1,29 +1,26 @@
 /*  libdarkness copyright Joe Koop 2021
     released under GPL3 license
     https://github.com/jkoop/libdarkness */
-
 #libdarkness-control {
     color: #00e;
     text-decoration: underline;
     cursor: pointer;
 }
 body.libdarkness {
-    filter: invert(1);
     background-color: #000;
 }
-body.libdarkness image:not(.libdarkness),
-body.libdarkness video:not(.libdarkness) {
+body.libdarkness,
+body.libdarkness a,
+body.libdarkness img.libdarkness,
+body.libdarkness video.libdarkness,
+body.libdarkness #libdarkness-control {
     filter: invert(1);
 }
-body.libdarkness a:not(:visited), body.libdarkness #libdarkness-control {
-    filter: invert(1);
-}
-body.libdarkness a:visited {
+body.libdarkness a:visited,
+body.libdarkness #libdarkness-control {
     color: #ff1;
 }
-body.libdarkness a:not(:visited), body.libdarkness #libdarkness-control {
+body.libdarkness a:not(:visited),
+body.libdarkness #libdarkness-control {
     color: #2f2;
-}
-body.libdarkness a img.libdarkness-yesinvert {
-    filter: invert(1);
 }
