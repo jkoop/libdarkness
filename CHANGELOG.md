@@ -6,9 +6,15 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 
 ## Unreleased
 
-+ Change favicon
 + Change address bar colour
 + Remove the requirement for jQuery
+
+## 2021 Feb 08 08:09 Winnipeg
+
++ Change favicon
+  + Use the `libdarkness-light` and `libdarkness-dark` classes on your favicon `<link/>` elements. See [README.md](README.md)
++ Fixed image and video styling
+  + Additionally, to invert an `<svg/>` in dark mode, give it the `libdarkness` class
 
 ## 2021 Feb 07 11:14 Winnipeg
 

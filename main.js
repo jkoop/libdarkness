@@ -5,15 +5,15 @@
 function dark(){
 	$('body').addClass('libdarkness');
 	//$('meta[name="theme-color"]').attr('content', '#000');
-  //lightIcon.remove();
-  //$('head').append(darkIcon);
+  lightIcon.remove();
+  $('head').append(darkIcon);
 }
 
 function light(){
 	$('body').removeClass('libdarkness');
 	//$('meta[name="theme-color"]').attr('content', '#FFF');
-  //darkIcon.remove();
-  //$('head').append(lightIcon);
+  darkIcon.remove();
+  $('head').append(lightIcon);
 }
 
 function init(){
@@ -31,6 +31,7 @@ function init(){
 	  $('#libdarkness-status').text('Forced light mode');
   }else{
     auto();
+		$('#libdarkness-status').text('Auto dark mode');
   }
 }
 
@@ -64,8 +65,8 @@ $(document).ready(function(){
 	});
 });
 
-//var lightIcon = $('link#libdarkness-lighticon');
-//var darkIcon  = $('link#libdarkness-darkicon');
+var lightIcon = $('link.libdarkness-light');
+var darkIcon  = $('link.libdarkness-dark');
 var listener  = window.matchMedia('(prefers-color-scheme: dark)');
 listener.addListener(auto);
 init();
