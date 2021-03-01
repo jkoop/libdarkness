@@ -18,7 +18,7 @@ For a demonstration, visit [my website](https://joekoop.com/).
 <!-- Stylesheet -->
 <link rel="preload preconnect dns-prefetch stylesheet" href="https://static.joekoop.com/libdarkness/main.css" />
 
-<!-- Script; should be first child of <body/> -->
+<!-- Script -->
 <script rel="preload preconnect dns-prefetch" src="https://static.joekoop.com/libdarkness/main.js" type="module"></script>
 ```
 
@@ -30,7 +30,7 @@ For a demonstration, visit [my website](https://joekoop.com/).
 <!-- Stylesheet -->
 <link rel="preload preconnect dns-prefetch stylesheet" href="path/to/main.css" />
 
-<!-- Script; should be first child of <body/> -->
+<!-- Script -->
 <script rel="preload preconnect dns-prefetch" src="path/to/main.js" type="module"></script>
 ```
 
@@ -48,7 +48,7 @@ To invert an `<img/>` or `<video/>` in dark mode, give it the `libdarkness` clas
 
 ### Favicon
 
-To use separate favicons for the light and dark themes, you can use the `libdarkness-light` and `libdarkness-dark` classes on your favicon `<link/>` elements, like so:
+To use separate favicons for the light and dark themes, you can use the `libdarkness-light` and `libdarkness-dark` classes on your favicon `<link/>` elements, like so: (icon links should prob'ly be above the script in the DOM)
 
 ```html
 <!-- light mode favicon -->
