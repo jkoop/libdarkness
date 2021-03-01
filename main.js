@@ -3,14 +3,14 @@
     https://github.com/jkoop/libdarkness */
 
 function dark(){
-	$('body').addClass('libdarkness');
+	$('html').addClass('libdarkness');
 	//$('meta[name="theme-color"]').attr('content', '#000');
   lightIcon.remove();
   $('head').append(darkIcon);
 }
 
 function light(){
-	$('body').removeClass('libdarkness');
+	$('html').removeClass('libdarkness');
 	//$('meta[name="theme-color"]').attr('content', '#FFF');
   darkIcon.remove();
   $('head').append(lightIcon);
