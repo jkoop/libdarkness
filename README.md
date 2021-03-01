@@ -16,10 +16,10 @@ For a demonstration, visit [my website](https://joekoop.com/).
 
 ```html
 <!-- Stylesheet -->
-<link rel="preload preconnect dns-prefetch stylesheet" href="https://static.joekoop.com/libdarkness/main.css" />
+<link rel="preconnect dns-prefetch stylesheet" href="https://static.joekoop.com/libdarkness/main.css" />
 
 <!-- Script -->
-<script rel="preload preconnect dns-prefetch" src="https://static.joekoop.com/libdarkness/main.js" type="module"></script>
+<script rel="preconnect dns-prefetch" src="https://static.joekoop.com/libdarkness/main.js" type="module"></script>
 ```
 
 ## Installation (self-hosted)
