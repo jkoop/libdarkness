@@ -9,6 +9,10 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 + Change address bar colour
 + Remove the requirement for jQuery
 
+## 2021 May 31 08:49 Winnipeg
+
++ Move CDN to `https://cdn.jsdelivr.net/gh/jkoop/libdarkness@1.0/main.min.` `js`,`css`
+
 ## 2021 Feb 08 08:09 Winnipeg
 
 + Change favicon
