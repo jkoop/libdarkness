@@ -16,10 +16,10 @@ For a demonstration, visit [my website](https://joekoop.com/).
 
 ```html
 <!-- Stylesheet -->
-<link rel="preconnect dns-prefetch stylesheet" href="https://static.joekoop.com/libdarkness/main.css" />
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jkoop/libdarkness@1.0/main.min.css" />
 
 <!-- Script -->
-<script rel="preconnect dns-prefetch" src="https://static.joekoop.com/libdarkness/main.js" type="module"></script>
+<script src="https://cdn.jsdelivr.net/gh/jkoop/libdarkness@1.0/main.min.js" type="module"></script>
 ```
 
 ## Installation (self-hosted)
@@ -28,10 +28,10 @@ For a demonstration, visit [my website](https://joekoop.com/).
 
 ```html
 <!-- Stylesheet -->
-<link rel="preload preconnect dns-prefetch stylesheet" href="path/to/main.css" />
+<link rel="stylesheet" href="path/to/main.css" />
 
 <!-- Script -->
-<script rel="preload preconnect dns-prefetch" src="path/to/main.js" type="module"></script>
+<script src="path/to/main.js" type="module"></script>
 ```
 
 ## Usage
